@@ -1,0 +1,24 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "lyicfantasy"
+version = "0.1.0"
+displayName = "Lyic Fantasy"
+authors = "Pikarift"
+description = '''Letras sincronizadas de la musica que escuchas, flotando en el mundo de Minecraft.'''
+
+[[dependencies.lyicfantasy]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.172,)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies.lyicfantasy]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1]"
+ordering = "NONE"
+side = "CLIENT"
